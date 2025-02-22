@@ -1,5 +1,5 @@
 CREATE DATABASE ManagementHouse
-
+USE ManagementHouse
 CREATE TABLE Tenant(
     TenantID INT IDENTITY(1,1) PRIMARY KEY,-- encryption
     NameTenant NVARCHAR(50),
